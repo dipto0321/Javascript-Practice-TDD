@@ -1,0 +1,19 @@
+{
+  "name": "javascript-practice-tdd",
+  "version": "1.0.0",
+  "description": "This is a simple project based on TDD practice. Framework I will be use `jest`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipto0321/Javascript-Practice-TDD.git"
+  },
+  "author": "Dipto Karmakar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dipto0321/Javascript-Practice-TDD/issues"
+  },
+  "homepage": "https://github.com/dipto0321/Javascript-Practice-TDD#readme"
+}
