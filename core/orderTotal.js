@@ -4,4 +4,4 @@ const orderTotal = orders => {
 
 
 
-export default orderTotal;
+module.exports = orderTotal;

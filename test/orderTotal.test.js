@@ -1,3 +1,4 @@
+const orderTotal = require('../core/orderTotal');
 const testCases = {
   test1: {
     items: [{
@@ -33,13 +34,6 @@ const testCases = {
   },
 };
 
-import {
-  orderTotal
-} from '../orderTotal';
-
-
-
-
-for (const testKey in testCases) {
-  console.log(orderTotal(testCases[testKey]));
-}
+test('should calculate order total', () => {
+  expect(orderTotal(testCases.test1)).toEqual(testCases.test1.total);
+});
