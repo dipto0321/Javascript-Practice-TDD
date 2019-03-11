@@ -50,3 +50,24 @@ test("should no 'B' in danger", () => {
 test('should include admin in roles array', () => {
   expect(testObj.role).toContain('admin');
 });
+
+// Async test
+
+// Promise way
+
+test('should fetch user from fake api', () => {
+  expect.assertions(1);
+  return testObj.fetchUser()
+    .then((data) => {
+      expect(data.username).toEqual('Bret');
+    })
+    .catch(error => error);
+});
+
+// Asyn await
+
+test('should extract user name ', async () => {
+  expect.assertions(1);
+  const data = await testObj.fetchUser();
+  expect(data.name).toEqual('Leanne Graham');
+});
