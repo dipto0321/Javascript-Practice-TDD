@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dipto0321/Javascript-Practice-TDD#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "jest": "^24.3.1"
   },
   "devDependencies": {

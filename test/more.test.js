@@ -44,3 +44,9 @@ test("should 'te' in team", () => {
 test("should no 'B' in danger", () => {
   expect('danger').not.toMatch(/B/);
 });
+
+// Array test
+
+test('should include admin in roles array', () => {
+  expect(testObj.role).toContain('admin');
+});
